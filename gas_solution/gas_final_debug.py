@@ -59,6 +59,7 @@ class SystemInfo:
         return round((int(avail) / int(total)) * 100)
 
 
+
 class Yolo:
     """
     Yolo class is used for getting images from camera and judging defect existance.
