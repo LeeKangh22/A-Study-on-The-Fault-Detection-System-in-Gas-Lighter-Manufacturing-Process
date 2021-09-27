@@ -8,6 +8,7 @@ from csi_camera import CSI_Camera
 DISPLAY_WIDTH = 1400
 DISPLAY_HEIGHT = 1050
 
+
 def getCapture() :   # 실시간으로 화면을 캡쳐 후 로컬저장함
     camera = CSI_Camera()
     camera.create_gstreamer_pipeline(
