@@ -397,6 +397,7 @@ class Yolo:
         self.lighter_error = [0 for _ in range(10)]     # Bool flag list whether n'th lighter has a defect or not
         lighter_error_rate = [[] for _ in range(10)]    # n'th lighter's error rate
         try:
+            
             while img_cnt < loop:
                 img = self.get_camera_image()
                 img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB)
