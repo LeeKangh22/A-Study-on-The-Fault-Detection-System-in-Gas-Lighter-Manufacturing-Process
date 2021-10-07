@@ -229,6 +229,7 @@ class Yolo:
         upper_lines   = []          # Configured lines of a set of lighter. (there are loop elements)
         self.gpu_frame.upload(img)  # Upload image to GPU side for optimization.
         
+        
         for _ in range(loop):
             width_candidates        = []
             upper_line_candidates   = []
