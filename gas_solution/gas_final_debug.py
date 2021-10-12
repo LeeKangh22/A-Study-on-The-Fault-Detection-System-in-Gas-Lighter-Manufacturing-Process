@@ -123,7 +123,6 @@ class Yolo:
     def initialize_camera(self):
         """
         Args:
-        
         Returns:
         
         Raises:
