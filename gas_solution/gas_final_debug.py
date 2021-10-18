@@ -124,7 +124,6 @@ class Yolo:
         """
         Args:
         
-        
         Returns:
         
         Raises:
