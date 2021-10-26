@@ -25,6 +25,8 @@ class State(Enum):
     SETTING = 2
     SOLVING = 3
 
+
+
 THERMAL_PATH = '/sys/devices/virtual/thermal/thermal_zone0/temp'
 
 ############## Classes ################
@@ -171,7 +173,7 @@ class Yolo:
                 if img is None, it should be returned.
         
 
-        
+
         Note:
             'roi_upper', 'roi_lower' and 'roi_col' is controlled by user.
             Coordinates get larger as they go from top to bottom. 
