@@ -25,8 +25,6 @@ class State(Enum):
     SETTING = 2
     SOLVING = 3
 
-
-
 THERMAL_PATH = '/sys/devices/virtual/thermal/thermal_zone0/temp'
 
 ############## Classes ################
