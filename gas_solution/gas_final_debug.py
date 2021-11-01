@@ -29,7 +29,6 @@ THERMAL_PATH = '/sys/devices/virtual/thermal/thermal_zone0/temp'
 
 ############## Classes ################
 
-
 class SystemInfo:
     """
     SystemInfo class is used for getting system information which will be indicated in GUI.
